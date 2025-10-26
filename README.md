@@ -25,8 +25,11 @@ It demonstrates modern CSS animation techniques, sequencing, and audio integrati
 /Netflix-logo
 │
 ├── index.html        # Main HTML file
+
 ├── style.css         # Styles and animations
+
 ├── netflix_intro.mp3 # Audio file for the Netflix intro
+
 └── README.md         # Project description
 
 
@@ -49,6 +52,8 @@ git clone https://github.com/Godeshwari/Netflix-logo.git
 4.Click the logo if autoplay is blocked — animation & audio will play.
 
 
+
+
 🛠 Technologies Used
 
 1.HTML5 – structure
@@ -56,6 +61,8 @@ git clone https://github.com/Godeshwari/Netflix-logo.git
 2.CSS3 – animations & styling
 
 3.JavaScript – audio sync
+
+
 
 
 🎯 About
