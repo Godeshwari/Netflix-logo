@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Logo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="netflix">
+        <span class="left"></span>
+        <span class="center"></span>
+        <span class="right"></span>
+        <!-- White light sweep -->
+        <div class="light"></div>
+        <!-- Netflix text -->
+        <h1>NETFLIX</h1>
+    </div> 
+
+    <!-- Netflix Ta-dum Audio -->
+    <audio id="ta-dum" preload="auto">
+    <source src="netflix_inro.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+    <script>
+        // Play audio after light sweep starts
+        setTimeout(() => {
+            const audio = document.getElementById('ta-dum');
+            audio.volume = 0.6;
+            audio.play().catch(() => {
+                console.log("User interaction required to play audio.");
+            })
+        }, 3000); // adjust timing as needed
+    </script>
+</body>
+</html>
