@@ -23,7 +23,8 @@ It demonstrates modern CSS animation techniques, sequencing, and audio integrati
 
 
 /Netflix-logo
-│
+
+
 ├── index.html        # Main HTML file
 
 ├── style.css         # Styles and animations
